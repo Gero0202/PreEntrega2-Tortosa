@@ -167,3 +167,15 @@ nav a {
     color: white;
 
 }
+
+@media (max-width: 600px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 125px;
+    }
+     
+    nav{
+        display: flex;
+    }
+}
