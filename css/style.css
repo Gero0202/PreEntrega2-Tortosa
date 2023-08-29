@@ -199,4 +199,9 @@ nav a {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    #main-index{
+        display: flex;
+        flex-direction: column;
+    }
 }
