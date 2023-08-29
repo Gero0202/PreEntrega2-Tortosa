@@ -168,6 +168,14 @@ nav a {
 
 }
 
+@media (max-width: 786px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 125px;
+    }
+}
+
 @media (max-width: 600px){
     header{
         display: flex;
