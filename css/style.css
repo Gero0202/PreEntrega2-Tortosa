@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Titulo";
+    src: url('../recursos/DMSerifDisplay-Regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+    height: 100%;
+}
+
+
+
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: o;
+
+   
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: white
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 80px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+#main-index{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.6fr 1.1fr; 
+    
+    grid-template-areas: 
+    "texto-centrado"
+    "parrafoskate"
+    "videodeskate"; 
+}
+
+.texto-centrado{
+    grid-area: texto-centrado;
+}
+
+.parrafoskate{
+    grid-area: parrafoskate;
+}
+
+.videodeskate{
+    grid-area: videodeskate;
+}
+
+.texto-centrado {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Titulo";
+    position: relative;
+    left: 0, 5px;
+    top: 20px;
+    text-decoration: underline;
+}
+
+.parrafoskate {
+
+    font-family: "Titulo";
+    padding: 10px;
+    position: relative;
+    left: 0px;
+
+    top: 40px;
+    word-spacing: 10px;
+    margin: 10px;
+}
+
+
+.grupo1 a {
+    color: white;
+
+}
+
+.parrafoskate p {
+    margin-bottom: 20px;
+}
+
+
+.carousel-item img{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.videodeskate{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contacto {
+    font-family: "Titulo";
+    padding: 20px;
+    position: relative;
+    left: 0px;
+    
+    word-spacing: 0px;
+    margin: 10px;
+   
+    height: 250px;
+    text-align: center;
+}
+
+.campo {
+
+    width: 300px;
+    height: 100px;
+    text-align: top;
+}
+
+
+
+.footer {
+    min-height: 100%;
+    text-align: center;
+    align-items: center;
+    
+    padding: 10px;
+    bottom: 0px;
+    margin-top: auto;
+    width: 100%;
+    word-spacing: 8px;
+    background-color: black;
+    color: white;
+
+}
